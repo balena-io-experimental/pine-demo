@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@resin/pinejs": "^4.0.2",
+    "@resin/pinejs": "^5.0.3",
     "body-parser": "^1.18.1",
     "coffee-script": "^1.12.7",
     "express": "^4.15.4"
