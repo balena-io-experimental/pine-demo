@@ -34,3 +34,7 @@ Fact Type: device belongs to application
 
 Fact Type: application has device type
 	Necessity: each application has exactly one device type
+
+Rule: It is necessary that each device has a resinOS version that is equal to 1 or 2.
+
+Rule: It is necessary that each device that belongs to an application, belongs to an application that has a device type that is equal to a type that is of the device.
