@@ -1,1 +1,12 @@
 Vocabulary: Demo
+
+Term: device
+
+Term: name
+	Concept Type: Short Text (Type)
+
+Term: resinOS version
+	Concept Type: Integer (Type)
+
+Term: type
+	Concept Type: Short Text (Type)
