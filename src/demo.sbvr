@@ -19,3 +19,18 @@ Fact Type: device has resinOS version
 
 Fact Type: device has type
 	 Necessity: each device has exactly one type.
+
+Term: application
+
+Term: device type
+	Concept Type: Short Text (Type)
+
+Fact Type: application has name
+	Necessity: each application has exactly one name.
+
+Fact Type: device belongs to application
+	Synonymous Form: application owns device
+	Necessity: each device belongs to at most one application
+
+Fact Type: application has device type
+	Necessity: each application has exactly one device type
