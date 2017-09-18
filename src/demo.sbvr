@@ -19,3 +19,23 @@ Fact Type: device has note
 
 Fact Type: device has type
 	 Necessity: each device has exactly one type.
+
+Term: application
+
+Term: device type
+  Concept Type: Short Text (Type)
+
+Term: version
+  Concept Type: Integer (Type)
+
+Fact Type: application has name
+  Necessity: each application has exactly one name.
+
+Fact Type: device belongs to application
+  Necessity: each device belongs to at most one application
+
+Fact Type: application has device type
+  Necessity: each application has exactly one device type
+
+Fact Type: application has version
+  Necessity: each application has exactly one version
